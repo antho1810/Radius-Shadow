@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.img {
+  width: 250px;
+  height: 250px;
+  /* object-fit: cover; */
+  margin: 50px;
+  color: goldenrod;
+  /* border: 20px dotted chartreuse; */
+
+  /* border-radius: 50%; */
+  /* border-top-left-radius: 30px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 500px;
+    border-bottom-left-radius: 30px; */
+  /* border-radius: top-left | top-right | bottom-right | bottom-left */
+  /* border-radius: 10px 60px 110px 30px; */
+  /* border-radius: 10px 60px 110px; */
+  /* border-radius: 50% 0; */
+  border-radius: 50%;
+
+  /* box-shadow: offset-x offset-y blur spread color; */
+  box-shadow: 10px 20px 20px 5px rgba(70, 130, 180, 10);
+}
+
+.notebook {
+  width: 300px;
+  height: 400px;
+  background-color: violet;
+  margin: 50px;
+  border-radius: 10px;
+  box-shadow: 10px 10px #fff, 20px 20px #0008;
+}
+
+.circle {
+  width: 14px;
+  height: 14px;
+  background-color: black;
+  border-radius: 50%;
+  margin-top: 30px;
+  margin-left: 7px;
+  box-shadow: 0 40px, 0 80px, 0 120px, 0 160px, 0 200px, 0 240px, 0 280px,
+    0 320px;
+    padding: .1px;
+}
+
+.line{
+ margin-top: 4px;
+ margin-left: -20px;
+    background-color: aquamarine;
+    color: aquamarine;
+    width: 30px;
+    height: 8px;
+    border-radius: 10px;
+    box-shadow: 0 40px, 0 80px, 0 120px, 0 160px, 0 200px, 0 240px, 0 280px,
+    0 320px;
+}
